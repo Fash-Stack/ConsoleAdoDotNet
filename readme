@@ -1,0 +1,22 @@
+# Employee Lookup Console App (C# + MySQL)
+
+This is a simple C# console application that connects to a MySQL database to search for employees by their ID.
+
+## Features
+
+- Connects to a MySQL database using `MySql.Data`
+- Uses `async/await` for non-blocking database access
+- Retrieves employee details by their GUID (ID)
+- Gracefully handles errors like invalid input or failed database connections
+
+## Technologies Used
+
+- C# (.NET)
+- MySQL
+- ADO.NET (`MySql.Data` NuGet package)
+
+## Getting Started
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/AjaoAbdulmusowir/ConsoleAdoDotNet.git
